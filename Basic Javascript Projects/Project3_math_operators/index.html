@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="JS/main.js"></script>
+    </head>
+
+    <body>
+        <p id="Math"></p>
+        <p id ="Math" onclick = "addition_Function()">Click to add</p>
+
+        <p id="Subtracting"></p>
+        <p id="Subtracting" onclick="subtract()">Click to subtract</p>
+
+        <p id="Multiply"></p>
+        <p id="Multiply" onclick="multiplication_operation()">Click to multiply</p>
+
+        <p id="Divide"></p>
+        <p id="Divide" onclick="division_operation()">Click to Divide</p>
+
+        <p id="More_Math"></p>
+        <p id="More_Math" onclick="All_At_Once()">Click for more math</p>
+
+        <p id="Remainder"></p>
+        <p id="Remainder" onclick="modulus_Operator()">Click for remainder</p>
+
+        <p id="Negation"></p>
+        <p id="Negation" onclick="negation_Operator()">Click for Negation</p>
+
+        <p>The Math object allows you to perform mathmatical operations. The properties of Math can be 
+            called by using Math as an object.
+        </p>
+        <p id="find_pi"></p>
+       
+        <script>
+            document.getElementById("find_pi").innerHTML = Math.PI;
+        </script>
+    </body>
+</html>

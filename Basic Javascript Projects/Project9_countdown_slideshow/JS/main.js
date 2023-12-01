@@ -1,3 +1,4 @@
+// Countdown function//
 function countdown() {
     var seconds = document.getElementById("seconds").value;
 

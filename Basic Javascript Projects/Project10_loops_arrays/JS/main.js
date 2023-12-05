@@ -47,3 +47,37 @@ document.write(Z);
     document.write("<br>" + Z);
 }
 document.write("<br>" + Z);
+
+// Return Statement //
+function myFunction(name) {
+    return "Hello " + name;
+    }
+document.getElementById("hello").innerHTML = myFunction("Whitney");
+
+// Objects //
+let car = {
+    make: "Toyota ",
+    model: "Rav4 ",
+    year: "2021 ",
+    color: "blue ",
+    description : function() {
+        return "The car is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementById("Car_Object").innerHTML = car.description();
+
+// Break Statement //
+let number = "";
+for (let i = 0; i < 5; i++) {
+    if ( i == 4) break;
+    number += i + "<br>";
+}
+document.getElementById("Four").innerHTML = number;
+
+// Continue Statement //
+let text = "";
+for (let i = 0; i < 5; i++) {
+    if (i == 2) continue;
+    text += i + "<br>";
+}
+document.getElementById("Skip").innerHTML = text;

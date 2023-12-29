@@ -2,9 +2,9 @@
 This is a collection of some small JavaScript projects I made.
 
 Projects:
--Pizza Menu
--Tic Tac Toe Game
--Calculator
+-Pizza Menu<br>
+-Tic Tac Toe Game<br>
+-Calculator<br>
 
 Pizza Menu:
 This project created a menu for ordering pizza. The user has the option of different sizes or toppings and then it calculates a total price for the order.

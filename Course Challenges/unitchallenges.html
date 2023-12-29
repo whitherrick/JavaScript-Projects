@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/unitchallenge.css">
+        <script src="JS/validation.js"></script>
+	</head>
+	<body>
+        <script>
+            document.body.classList.add('fade-out');
+
+        window.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.remove('fade-out');
+        });
+        </script>
+
+		<header>
+			<h1 style="font-size:10vw;">Header text</h1>
+		</header>
+
+		<p style="font-size:5vw;">Paragraph here</p>
+
+        <form name="myForm" onsubmit="return validate()">Phone number: 
+            <input type="text" name="phone" placeholder="Phone number...">
+
+            <input type="submit" value="Submit">
+        </form>
+	</body>
+</html>

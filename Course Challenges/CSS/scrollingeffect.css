@@ -1,0 +1,9 @@
+#top_section {
+  height: 600px;
+  background-color: lightgreen;
+}
+
+#bottom_section {
+  height: 600px;
+  background-color: lightsalmon;
+}

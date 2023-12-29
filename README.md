@@ -2,6 +2,7 @@
 This is a collection of some small JavaScript projects I made.
 
 Projects:
+
 -Pizza Menu
 
 -Tic Tac Toe Game

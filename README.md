@@ -1,7 +1,7 @@
-# H1 JavaScript-Projects
+# JavaScript-Projects
 This is a collection of some small JavaScript projects I made.
 
-# H2 Projects:
+## Projects:
 
 - [Pizza Menu](https://github.com/whitherrick/JavaScript-Projects/tree/main/Pizza_Project)
 - [Tic Tac Toe Game](https://github.com/whitherrick/JavaScript-Projects/tree/main/TicTacToe)
